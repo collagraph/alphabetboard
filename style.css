@@ -1,0 +1,138 @@
+/* set defaults */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+/* Force a vertical scrollbar to prevent a jumpy page */
+html {
+    overflow-y: scroll;
+}
+
+/* make sure sectioning elements are block */
+main,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+/* flexible images */
+img {
+    max-width: 100%;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+body {
+    margin: 1em 5%;
+    font-size: 1.375em;
+    line-height: 1.618;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #222;
+    background-color: #eae6e6;
+
+}
+
+@media (min-width: 50em) {
+    body {
+        margin: 5em auto;
+        padding: 0 10%;
+        max-width: 60em;
+    }
+}
+
+h1 {
+
+}
+
+h2 {
+    margin-top: 1.618em;
+}
+
+p {
+    margin-top: .618em;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    margin-top: .618em;
+    list-style-position: outside;
+    padding-left: 1.618em;
+}
+
+li {
+    margin-top: .618em;
+}
+
+table {
+    margin-top: .618em;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+td {
+    vertical-align: top;
+    font-weight: normal;
+    padding: .3em;
+    border: 1px #888 solid;
+}
+
+.figure-image {
+    width: 100%;
+}
+
+/* Layout */
+
+header,
+main > *,
+[role="contentinfo"] {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    margin-bottom: 1.618em;
+}
+
+@media (min-width: 65em) {
+    header,
+    main > *,
+    [role="contentinfo"] {
+        max-width: 80%
+    }
+}
+
+@media (min-width: 80em) {
+    header,
+    main > *,
+    [role="contentinfo"] {
+        max-width: 60%
+    }
+}
